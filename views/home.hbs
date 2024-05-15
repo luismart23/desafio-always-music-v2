@@ -1,0 +1,23 @@
+<h1>Estudiantes</h1>
+
+<form id="formularioAgregarEstudiante" class="mb-5">
+    <input required type="text" name="nombre" placeholder="Nombre estudiante" class="form-control mb-2">
+    <input required type="text" name="curso" placeholder="Curso estudiante" class="form-control mb-2">
+    <input required type="number" name="nivel" placeholder="Nivel estudiante" class="form-control mb-2">
+    <button type="submit" class="btn btn-primary">Agregar</button>
+</form>
+
+<ul id="todosLosEstudiantes" class="list-group">
+    <!-- Pintar todos los estudiantes -->
+    <!-- <li class="list-group-item">
+        <div class="mb-2">
+            Nombre estudiante - curso - nivel:
+        </div>
+        <div>
+            <button onclick="eliminarEstudiante('1')" class="btn btn-danger btn-sm">Eliminar</button>
+            <button onclick="editarEstudiante('1')" class="btn btn-warning btn-sm">Editar</button>
+        </div>
+    </li> -->
+</ul>
+
+{{> modal}}
